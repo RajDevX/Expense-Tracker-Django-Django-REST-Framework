@@ -56,7 +56,7 @@ git clone https://github.com/RajDevX/Expense-Tracker-Django-Django-REST-Framewor
 
 Follow these steps to get the project running locally:
 
-### 1. Navigate to the project directory
+1. Navigate to the project directory
 ```bash
 cd Daily-expensive-management-system-main
 ```
@@ -85,7 +85,8 @@ source venv/bin/activate
    ```bash
    python manage.py runserver
 
-7.Open your browser and navigate to:
+ 7. Open your browser and navigate to:
   ```bash
   http://127.0.0.1:8000
+
 

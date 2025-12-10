@@ -129,8 +129,8 @@ EMAIL_HOST = os.getenv("DJANGO_EMAIL_HOST", "smtp.gmail.com")
 EMAIL_PORT = int(os.getenv("DJANGO_EMAIL_PORT", "587"))
 EMAIL_USE_TLS = os.getenv("DJANGO_EMAIL_USE_TLS", "1").lower() in {"1", "true", "yes"}
 EMAIL_USE_SSL = os.getenv("DJANGO_EMAIL_USE_SSL", "0").lower() in {"1", "true", "yes"}
-EMAIL_HOST_USER = os.getenv("DJANGO_EMAIL_HOST_USER", "rajeshrajesh123rlsh@gmail.com")
-EMAIL_HOST_PASSWORD = os.getenv("DJANGO_EMAIL_HOST_PASSWORD", "smiy jhqg kctd hlmf")
+EMAIL_HOST_USER = os.getenv("DJANGO_EMAIL_HOST_USER", "raj@gmail.com")
+EMAIL_HOST_PASSWORD = os.getenv("DJANGO_EMAIL_HOST_PASSWORD", "Use your key **** ****")
 DEFAULT_FROM_EMAIL = os.getenv(
     "DJANGO_DEFAULT_FROM_EMAIL",
     EMAIL_HOST_USER or "no-reply@daily-expense-manager.local",
